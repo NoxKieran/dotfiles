@@ -1,0 +1,13 @@
+{
+  "sizes": {
+    "dashboard": {
+      "userWidth": 380,
+      "weatherWidth": 300,
+      "dateTimeWidth": 130,
+      "mediaWidth": 230
+    },
+    "bar": {
+      "innerWidth": 32
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+    "appearance": {
+        "font": {
+            "scale": 0.9
+        },
+        "padding": {
+            "scale": 0.8
+        },
+        "rounding": {
+            "scale": 1
+        },
+        "spacing": {
+            "scale": 0.8
+        },
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "background": {
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": false,
+            "inverted": false,
+            "showOnHover": true
+        },
+        "clock": {
+            "background": false,
+            "showDate": true,
+            "showIcon": false,
+            "showSeconds": false
+        },
+        "dragThreshold": 30,
+        "scrollActions": {
+            "volume": true,
+            "workspaces": true
+        },
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "lockStatus"
+            },
+            {
+                "enabled": false,
+                "id": "audio"
+            },
+            {
+                "enabled": false,
+                "id": "microphone"
+            },
+            {
+                "enabled": false,
+                "id": "kbLayout"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "battery"
+            }
+        ],
+        "workspaces": {
+            "activeIndicator": true,
+            "activeTrail": true,
+            "maxWindowIcons": 2,
+            "occupiedBg": false,
+            "perMonitor": true,
+            "showUnoccupied": true,
+            "showWindows": true,
+            "showWindowsOnSpecialWorkspaces": true,
+            "shown": 6
+        }
+    },
+    "dashboard": {
+        "enabled": true,
+        "performance": {
+            "showBattery": true,
+            "showCpu": true,
+            "showNetwork": false
+        },
+        "showClockSeconds": false,
+        "showDashboard": true,
+        "showMedia": true,
+        "showPerformance": true,
+        "showWeather": false
+    },
+    "launcher": {
+        "maxShown": 4,
+        "maxWallpapers": 30,
+        "useFuzzy": {
+            "actions": true,
+            "schemes": true,
+            "variants": false,
+            "wallpapers": true
+        },
+        "vimKeybinds": true
+    },
+    "services": {
+        "clockFormat": "TwentyFourHour"
+    },
+    "sidebar": {
+        "dragThreshold": 90
+    },
+    "utilities": {
+        "enabled": true,
+        "quickToggles": [
+            {
+                "enabled": true,
+                "id": "wifi"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "mic"
+            },
+            {
+                "enabled": true,
+                "id": "settings"
+            },
+            {
+                "enabled": false,
+                "id": "gameMode"
+            },
+            {
+                "enabled": true,
+                "id": "dnd"
+            },
+            {
+                "enabled": true,
+                "id": "vpn"
+            }
+        ]
+    }
+}
